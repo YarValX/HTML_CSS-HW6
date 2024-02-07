@@ -239,16 +239,8 @@ body {
     
         .header{
             width: 100%;
-            padding-left: 0;
-            padding-right: 0;
-        }
-    
-        .left__menu {
-            margin-left: 32px;
-        }
-    
-        .right__menu {
-            margin-right: 32px;
+            padding-left: 32px;
+            padding-right: 32px;
         }
 
         .top {
@@ -295,6 +287,105 @@ body {
             padding-right: 2%;
             margin-bottom: 33px;
         }
+    }
 
+    @media screen and (min-width:320px) and (max-width:767px) {
+
+        .center {
+            width: 100%;
+        }     
+
+        .header {
+            width: 100%;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        .menu {
+            margin-right: 16px;
+        }
+        
+        .profile, .basket {
+            display:none;
+        }
+
+        .top {
+            padding: 41% 0%;
+            margin-bottom: 64px;
+        }
+
+        .photo {
+            display: none;
+            justify-content: center;
+        }
+
+        .top__title {
+            width: 100%;
+            margin-right: 0;
+            justify-content: center;
+        }
+
+        .title {
+            font-size: 38px;
+        }
+
+        .subtitle {
+            font-size: 20px;
+        }
+
+        .offers {
+            width: 100%;
+            padding-left: 4%;
+            padding-right: 4%;
+            margin-bottom: 64px;
+            
+        }
+        .offers__top {
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .offer__item, .offer__img {
+            width: 100%;
+        }
+
+        .img__long {
+            display:none;
+        }
+
+        .item__long {
+            background-image:url(img/offers_accesories.svg);
+            background-position:center center;
+            background-size:cover;
+            width:100%;
+            height:111px;
+        }
+
+        .content__header {
+            margin-bottom: 64px;
+        }
+
+        .content {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-items: center;
+            padding-left: 2%;
+            padding-right: 2%;
+            gap:16px;
+            margin-bottom: 41px;
+        }
+
+        .item {
+            width: 100%;
+        }
+
+        .item__img {
+            max-width: 100%;
+        }
+
+        .content__btn {
+            margin-bottom: 85px;
+        }
     }
     
